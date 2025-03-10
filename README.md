@@ -10,7 +10,7 @@ This being my first python project, I also wanted it to be the first project whe
 
 [Watch the updated demo](). It still has the same functionality, but now has a bare minimum User Interface. 
 
-##What I Learned
+## What I Learned
 
 Throughout this project, I explored several new concepts and technologies. Here are some key things I learned:
 
