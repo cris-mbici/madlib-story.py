@@ -7,24 +7,26 @@ This is also my first python program.
 
 # Update!
 This being my first python project, I also wanted it to be the first project where I implement an interactive React UI!
+
 [Watch the updated demo](). It still has the same functionality, but now has a bare minimum User Interface. 
-What I Learned
+
+##What I Learned
 
 Throughout this project, I explored several new concepts and technologies. Here are some key things I learned:
 
-React (Frontend)
+##React (Frontend)
 
 ✅ Using useState() to manage form data and track the generated story result✅ Creating reusable components like InputForm for data entry and ResultDisplay to show the story✅ Sending data to the Flask backend using fetch() with a POST request✅ Handling errors gracefully by displaying error messages when the backend fails✅ Using .map() to dynamically render form fields instead of hardcoding them
 
-Flask (Backend)
+## Flask (Backend)
 
 ✅ Creating a Flask app with app = Flask(__name__)✅ Using @app.route() to define an API endpoint called /generate-story✅ Handling JSON data with request.json to receive user input from React✅ Generating a dynamic story using Python’s f-strings✅ Using jsonify() to send the generated story back to the frontend✅ Adding CORS support to allow the React frontend to communicate with the Flask backend
 
-General Skills
+## General Skills
 
 ✅ Structuring my project with clear folder separation for frontend and backend✅ Debugging issues like CORS errors, incorrect API URLs, and JSON format issues✅ Understanding the flow of data from user input → backend processing → React display
 
-How to Run the Project
+## How to Run the Project
 
 Clone this repository
 
@@ -44,7 +46,7 @@ npm start
 
 Open your browser and visit http://localhost:3000 to try out the Madlib Story Generator.
 
-What's Next?
+## What's Next?
 
 Now that I’ve learned the basics, I'm excited to:
 ✅ Experiment with simple styling to improve the UI
