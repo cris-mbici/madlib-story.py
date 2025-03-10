@@ -8,7 +8,7 @@ This is also my first python program.
 # Update!
 This being my first python project, I also wanted it to be the first project where I implement an interactive React UI!
 
-[Watch the updated demo](). It still has the same functionality, but now has a bare minimum User Interface. 
+[Watch the updated demo](https://github.com/cris-mbici/madlib-story.py/raw/main/madlib_updated_demo.mp4). It still has the same functionality, but now has a bare minimum User Interface. 
 
 ## What I Learned
 
