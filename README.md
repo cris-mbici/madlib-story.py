@@ -14,7 +14,7 @@ This being my first python project, I also wanted it to be the first project whe
 
 Throughout this project, I explored several new concepts and technologies. Here are some key things I learned:
 
-##React (Frontend)
+## React (Frontend)
 
 ✅ Using useState() to manage form data and track the generated story result✅ Creating reusable components like InputForm for data entry and ResultDisplay to show the story✅ Sending data to the Flask backend using fetch() with a POST request✅ Handling errors gracefully by displaying error messages when the backend fails✅ Using .map() to dynamically render form fields instead of hardcoding them
 
