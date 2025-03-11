@@ -17,23 +17,36 @@ Throughout this project, I explored several new concepts and technologies. Here 
 ## React (Frontend)
 
 ✅ Using useState() to manage form data and track the generated story result
+
 ✅ Creating reusable components like InputForm for data entry and ResultDisplay to show the story
+
 ✅ Sending data to the Flask backend using fetch() with a POST request
+
 ✅ Handling errors gracefully by displaying error messages when the backend fails
+
 ✅ Using .map() to dynamically render form fields instead of hardcoding them
 
 ## Flask (Backend)
 
 ✅ Creating a Flask app with app = Flask(__name__)
+
 ✅ Using @app.route() to define an API endpoint called /generate-story
+
 ✅ Handling JSON data with request.json to receive user input from React
+
 ✅ Generating a dynamic story using Python’s f-strings
+
 ✅ Using jsonify() to send the generated story back to the frontend
+
 ✅ Adding CORS support to allow the React frontend to communicate with the Flask backend
 
 ## General Skills
 
-✅ Structuring my project with clear folder separation for frontend and backend✅ Debugging issues like CORS errors, incorrect API URLs, and JSON format issues✅ Understanding the flow of data from user input → backend processing → React display
+✅ Structuring my project with clear folder separation for frontend and backend
+
+✅ Debugging issues like CORS errors, incorrect API URLs, and JSON format issues
+
+✅ Understanding the flow of data from user input → backend processing → React display
 
 ## How to Run the Project
 
@@ -58,6 +71,7 @@ Open your browser and visit http://localhost:3000 to try out the Madlib Story Ge
 ## What's Next?
 
 Now that I’ve learned the basics, I'm excited to:
+
 ✅ Experiment with simple styling to improve the UI
 
 This project taught me a lot about combining Python logic with React’s dynamic UI. It was scary at first because I felt like the syntax went so far from the python I'm familiar with, but I've succeeded and gained a lot of experience in the process.
