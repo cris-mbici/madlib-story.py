@@ -11,12 +11,12 @@ def generate_story():
     data = request.json  
 
     # Extract values from the incoming data (fallback to empty strings if keys are missing)
-    first_noun = data.get('first_noun', '')
-    first_adjective = data.get('first_adjective', '')
-    first_verb = data.get('first_verb', '')
-    second_noun = data.get('second_noun', '')
-    second_adjective = data.get('second_adjective', '')
-    second_verb = data.get('second_verb', '')
+    first_noun = data.get('First_Noun', '')
+    first_adjective = data.get('First_Adjective', '')
+    first_verb = data.get('First_Verb', '')
+    second_noun = data.get('Second_Noun', '')
+    second_adjective = data.get('Second_Adjective', '')
+    second_verb = data.get('Second_Verb', '')
 
     # Build the Madlib story using f-strings (There's some recognizable python here, huge relief)
     story = f"""
