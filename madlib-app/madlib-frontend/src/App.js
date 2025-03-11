@@ -1,4 +1,5 @@
 import React, { useState } from 'react';  // Importing React and the useState hook
+import './App.css'; // Need to import the CSS for styling
 
 // Main App component
 function App() {
@@ -24,7 +25,7 @@ function App() {
     };
 
     return (
-        <div>
+        <div className="container">
             <h1>Madlib Story Generator</h1>
             <InputForm onSubmit={handleDataSubmit} />
             <ResultDisplay result={result} />
@@ -36,12 +37,12 @@ function App() {
 function InputForm({ onSubmit }) {
     // Stores all the user inputs
     const [formData, setFormData] = useState({
-        first_noun: '',
-        first_adjective: '',
-        first_verb: '',
-        second_noun: '',
-        second_adjective: '',
-        second_verb: ''
+        First_Noun: '',
+        First_Adjective: '',
+        First_Verb: '',
+        Second_Noun: '',
+        Second_Adjective: '',
+        Second_Verb: ''
     });
 
     // Updates the corresponding value when a user types in an input
@@ -77,7 +78,7 @@ function InputForm({ onSubmit }) {
 // Displays the final story or an error message
 function ResultDisplay({ result }) {
     return (
-        <div>
+        <div classNmae="generated-story">
             <h3>Generated Story:</h3>
             <pre>{result || 'No story yet'}</pre>  {/* Displays story if one exists */}
         </div>
