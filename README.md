@@ -16,11 +16,20 @@ Throughout this project, I explored several new concepts and technologies. Here 
 
 ## React (Frontend)
 
-✅ Using useState() to manage form data and track the generated story result✅ Creating reusable components like InputForm for data entry and ResultDisplay to show the story✅ Sending data to the Flask backend using fetch() with a POST request✅ Handling errors gracefully by displaying error messages when the backend fails✅ Using .map() to dynamically render form fields instead of hardcoding them
+✅ Using useState() to manage form data and track the generated story result
+✅ Creating reusable components like InputForm for data entry and ResultDisplay to show the story
+✅ Sending data to the Flask backend using fetch() with a POST request
+✅ Handling errors gracefully by displaying error messages when the backend fails
+✅ Using .map() to dynamically render form fields instead of hardcoding them
 
 ## Flask (Backend)
 
-✅ Creating a Flask app with app = Flask(__name__)✅ Using @app.route() to define an API endpoint called /generate-story✅ Handling JSON data with request.json to receive user input from React✅ Generating a dynamic story using Python’s f-strings✅ Using jsonify() to send the generated story back to the frontend✅ Adding CORS support to allow the React frontend to communicate with the Flask backend
+✅ Creating a Flask app with app = Flask(__name__)
+✅ Using @app.route() to define an API endpoint called /generate-story
+✅ Handling JSON data with request.json to receive user input from React
+✅ Generating a dynamic story using Python’s f-strings
+✅ Using jsonify() to send the generated story back to the frontend
+✅ Adding CORS support to allow the React frontend to communicate with the Flask backend
 
 ## General Skills
 
