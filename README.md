@@ -78,7 +78,7 @@ This project taught me a lot about combining Python logic with React’s dynamic
 
 # UI Update!
 ## CSS Styling Lessons
-[Watch the updated demo]()
+[Watch the final demo](https://github.com/cris-mbici/madlib-story.py/raw/main/madlib_polished_demo.mp4) .
 box-sizing: border-box; — This was a game-changer! It kept my layout consistent when adding padding, which I didn’t realize was causing layout issues before.
 Using min-height for the container helped prevent layout shifts when the story text updated.
 
