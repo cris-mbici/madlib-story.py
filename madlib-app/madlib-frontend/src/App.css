@@ -1,0 +1,84 @@
+/* Sorry for the billion comments, this is my learning template and I'll have to refer to it frequently */
+
+body {
+    font-family: 'Arial', sans-serif; /* Classic and easy-to-read font */
+    background-color: #f0f8ff;  /* Chill light blue background for simplicity */
+    display: flex;  /* Centers everything nicely */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full screen height */
+    margin: 0px; /* Gets rid of the annoying default margin */
+}
+
+.container {
+    background-color: #ffffff; /* Clean white background */
+    border: 2px solid #4a90e2; /* Blue border for some pop */
+    border-radius: 12px; /* Rounded corners because sharp edges not nice */
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); /* Slight shadow for some depth */
+
+    /* Padding for breathing room */
+    padding: 30px;  
+    width: 100%;
+    max-width: 500px;  /* Don't let it get too wide */
+
+    /* Prevents weird layout shifting */
+    min-height: 500px; /* Guarantees enough space for content */
+    box-sizing: border-box; /* Padding won't mess with width */
+}
+
+h1 {
+    text-align: center; /* Centered text looks nice here */
+    color: #4a90e2;  /* Same blue for consistency */
+}
+
+form div {
+    margin-bottom: 12px; /* Space between input fields */
+}
+
+label {
+    display: block; /* Labels on top of inputs */
+    margin-bottom: 5px; /* Little space below the label */
+    font-weight: bold; /* Bold text so it's easy to spot */
+    color: #4a90e2;  /* Blue again because why not? */
+}
+
+input {
+    width: 100%; /* Full width for easier typing */
+    padding: 8px; /* Decent padding for comfort */
+    border: 1px solid #ccc; /* Soft grey border to look clean */
+    border-radius: 6px; /* Rounded corners for the win */
+    box-sizing: border-box; /* No weird sizing issues */
+}
+
+button {
+    background-color: #4a90e2; /* Blue button for that pop */
+    color: #ffffff; /* White text so it stands out */
+    border: none; /* Clean button, no border needed */
+    border-radius: 6px; /* Rounded corners again */
+    padding: 10px 20px; /* Just the right amount of padding */
+    cursor: pointer; /* So people know it's clickable */
+    width: 100%; /* Full width for a big satisfying button */
+    font-size: 16px; /* Big enough to read easily */
+    margin-top: 10px; /* Space above the button */
+}
+
+button:hover {
+    background-color: #357ab7; /* Slightly darker blue for that hover effect */
+}
+
+.generated-story {
+    background-color: #e3f2fd; /* Soft blue to look like a result box */
+    border: 1px solid #4a90e2; /* Border to match the rest */
+    padding: 15px; /* Padding for comfort */
+    border-radius: 8px; /* Gotta keep those rounded corners consistent */
+    margin-top: 20px; /* Space above the result */
+    
+    white-space: pre-line; /* Keeps the story's spacing clean */
+    max-height: 300px;  /* Limit the height so it doesn’t get huge */
+    overflow-y: auto;   /* Scroll if the story gets too long */
+    white-space: pre;   /* Keeps text format looking right */
+}
+
+h3 {
+    color: #4a90e2; /* More blue for that clean, matching look */
+}
