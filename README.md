@@ -76,6 +76,23 @@ Now that I’ve learned the basics, I'm excited to:
 
 This project taught me a lot about combining Python logic with React’s dynamic UI. It was scary at first because I felt like the syntax went so far from the python I'm familiar with, but I've succeeded and gained a lot of experience in the process.
 
+# UI Update!
+## CSS Styling Lessons
+[Watch the updated demo]()
+box-sizing: border-box; — This was a game-changer! It kept my layout consistent when adding padding, which I didn’t realize was causing layout issues before.
+Using min-height for the container helped prevent layout shifts when the story text updated.
 
+I also learned how overflow-y: auto can limit content size without cutting off text — super useful for keeping the generated story neat.
+UI/UX Insights
 
+Keeping color schemes consistent (like the blue theme) makes the app feel more polished.
 
+Adding hover effects on the button helped make the UI feel more interactive and less static.
+
+## General Coding Insights
+I learned that clean, simple code is better than over-complicating things — the best solution is the simplest one.
+
+## Future Improvements
+I'd like to add better error messages for specific issues (e.g., empty inputs or network errors).
+Improving the visual layout for mobile screens could make the app look even better.
+This project really helped me get more comfortable with React and CSS — and honestly, breaking things and fixing them taught me the most.
