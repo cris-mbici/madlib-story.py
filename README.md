@@ -5,7 +5,7 @@
 Once all inputs are collected, the story is dynamically generated using the provided words. The result is a humorous dialogue between two characters who debate their habits before ultimately agreeing to continue doing what they love. The final story is printed, making for a fun and interactive experience.
 This is also my first python program.
 
-# Update!
+# Front-end Update!
 This being my first python project, I also wanted it to be the first project where I implement an interactive React UI!
 
 [Watch the updated demo](https://github.com/cris-mbici/madlib-story.py/raw/main/madlib_updated_demo.mp4). It still has the same functionality, but now has a bare minimum User Interface. 
